@@ -73,7 +73,7 @@ public:
 			if (survived[i])
 				fout << to_string(i + 1) << endl << endl;
 
-		strs.clear();
+		strs = vector<string>(totalPlayerNum, "");
 		for (int i = cardList.size() - 1; i >= 0; --i)
 			strs[cardList[i]->owner] += cardList[i]->toString() + ' ';
 		for (int i = 0; i < totalPlayerNum; ++i) {
