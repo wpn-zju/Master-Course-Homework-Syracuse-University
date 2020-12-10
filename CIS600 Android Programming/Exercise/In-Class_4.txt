@@ -1,0 +1,10 @@
+1. select count(*) from ranks;
+   select count(*) from meanings;
+2. select * from ranks where name 
+3. select max(rank) from ranks;
+4. select min(rank) from ranks;
+5. select meaning from meanings where name = "Aaden" or name = "Lily"
+6. alter table ranks rename column rank to ranking
+7. update meanings set meaning = "" where name = "Zelda"
+8. select count(*) from ranks where sex = "M";
+   select count(*) from ranks where sex = "F";
